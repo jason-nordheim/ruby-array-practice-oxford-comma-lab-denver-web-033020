@@ -6,7 +6,7 @@ def oxford_comma(array)
     while array.size > 2
       output += array.shift()
     end
-    output += "#{array[0]} and#{array[1]}"
+    output += "#{array[0]} and #{array[1]}"
   end
-  output 
+  output
 end
